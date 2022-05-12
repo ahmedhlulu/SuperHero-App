@@ -11,6 +11,8 @@
 		E2034D3F282A3EE100C1E4D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2034D3E282A3EE100C1E4D1 /* ContentView.swift */; };
 		E2034D41282A3EE300C1E4D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2034D40282A3EE300C1E4D1 /* Assets.xcassets */; };
 		E2034D44282A3EE300C1E4D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2034D43282A3EE300C1E4D1 /* Preview Assets.xcassets */; };
+		E2034D4B282A40D000C1E4D1 /* SuperHeroViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2034D4A282A40D000C1E4D1 /* SuperHeroViews.swift */; };
+		E2034D4D282A4F4100C1E4D1 /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2034D4C282A4F4100C1E4D1 /* SuperHero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E2034D3E282A3EE100C1E4D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E2034D40282A3EE300C1E4D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2034D43282A3EE300C1E4D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2034D4A282A40D000C1E4D1 /* SuperHeroViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroViews.swift; sourceTree = "<group>"; };
+		E2034D4C282A4F4100C1E4D1 /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				E2034D3E282A3EE100C1E4D1 /* ContentView.swift */,
 				E2034D40282A3EE300C1E4D1 /* Assets.xcassets */,
 				E2034D42282A3EE300C1E4D1 /* Preview Content */,
+				E2034D4A282A40D000C1E4D1 /* SuperHeroViews.swift */,
+				E2034D4C282A4F4100C1E4D1 /* SuperHero.swift */,
 			);
 			path = "My First Project";
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2034D4B282A40D000C1E4D1 /* SuperHeroViews.swift in Sources */,
 				E2034D3F282A3EE100C1E4D1 /* ContentView.swift in Sources */,
 				E2034D3D282A3EE100C1E4D1 /* My_First_ProjectApp.swift in Sources */,
+				E2034D4D282A4F4100C1E4D1 /* SuperHero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

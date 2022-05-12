@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var superheros : [Superhero] = superHerosData
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        ScrollView(.horizontal) {
+            HStack {
+                ForEach(superheros) { item in
+                    SuperHeroViews(superH: item)
+                }// HStack
+                .padding(20)
+            }
+        }// ScrollView
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .previewInterfaceOrientation(.portrait)
     }
 }
