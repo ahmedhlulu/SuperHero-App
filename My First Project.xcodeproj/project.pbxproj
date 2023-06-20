@@ -13,6 +13,8 @@
 		E2034D44282A3EE300C1E4D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2034D43282A3EE300C1E4D1 /* Preview Assets.xcassets */; };
 		E2034D4B282A40D000C1E4D1 /* SuperHeroViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2034D4A282A40D000C1E4D1 /* SuperHeroViews.swift */; };
 		E2034D4D282A4F4100C1E4D1 /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2034D4C282A4F4100C1E4D1 /* SuperHero.swift */; };
+		E24B867728413BB400529700 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E24B867628413BB400529700 /* chimeup.mp3 */; };
+		E24B867928413BE100529700 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24B867828413BE100529700 /* PlaySound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		E2034D43282A3EE300C1E4D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E2034D4A282A40D000C1E4D1 /* SuperHeroViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroViews.swift; sourceTree = "<group>"; };
 		E2034D4C282A4F4100C1E4D1 /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
+		E24B867628413BB400529700 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
+		E24B867828413BE100529700 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 		E2034D3B282A3EE100C1E4D1 /* My First Project */ = {
 			isa = PBXGroup;
 			children = (
+				E24B867628413BB400529700 /* chimeup.mp3 */,
 				E2034D3C282A3EE100C1E4D1 /* My_First_ProjectApp.swift */,
 				E2034D3E282A3EE100C1E4D1 /* ContentView.swift */,
 				E2034D40282A3EE300C1E4D1 /* Assets.xcassets */,
 				E2034D42282A3EE300C1E4D1 /* Preview Content */,
 				E2034D4A282A40D000C1E4D1 /* SuperHeroViews.swift */,
+				E24B867828413BE100529700 /* PlaySound.swift */,
 				E2034D4C282A4F4100C1E4D1 /* SuperHero.swift */,
 			);
 			path = "My First Project";
@@ -131,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E24B867728413BB400529700 /* chimeup.mp3 in Resources */,
 				E2034D44282A3EE300C1E4D1 /* Preview Assets.xcassets in Resources */,
 				E2034D41282A3EE300C1E4D1 /* Assets.xcassets in Resources */,
 			);
@@ -144,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2034D4B282A40D000C1E4D1 /* SuperHeroViews.swift in Sources */,
+				E24B867928413BE100529700 /* PlaySound.swift in Sources */,
 				E2034D3F282A3EE100C1E4D1 /* ContentView.swift in Sources */,
 				E2034D3D282A3EE100C1E4D1 /* My_First_ProjectApp.swift in Sources */,
 				E2034D4D282A4F4100C1E4D1 /* SuperHero.swift in Sources */,
@@ -292,7 +300,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,7 +329,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
